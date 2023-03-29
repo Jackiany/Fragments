@@ -14,7 +14,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnConversas"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/conversa"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnContatos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/Contatos"
@@ -35,6 +35,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <FrameLayout
+        android:id="@+id/FrameConteudo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
